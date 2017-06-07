@@ -366,6 +366,8 @@ GEM
       kgio (~> 2.6)
       raindrops (~> 0.7)
     websocket (1.2.4)
+    whenever (0.9.7)
+      chronic (>= 0.6.3)
     will_paginate (3.1.5)
     xpath (2.0.0)
       nokogiri (~> 1.3)
@@ -442,8 +444,9 @@ DEPENDENCIES
   timecop
   uglifier
   unicorn
+  whenever
   will_paginate
   zeus
 
 BUNDLED WITH
-   1.13.7
+   1.14.6
